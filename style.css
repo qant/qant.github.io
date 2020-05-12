@@ -29,7 +29,7 @@ p {
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 10px;
+  grid-gap: 3px;
 }
 
 .container > div {
@@ -44,7 +44,7 @@ p {
   justify-content: center;
   text-align: center;
 
-  transition: all 0.5s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .container > div:hover {
@@ -69,10 +69,10 @@ p {
 }
 
 .bg1 {
-  background: url("/images/bg1.jpg");
+  background: url("images/bg1.jpg");
 }
 
 .bg2 {
-  background: url("/images/bg2.jpg");
+  background: url("images/bg2.jpg");
   color: #333;
 }
